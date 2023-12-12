@@ -158,11 +158,11 @@ local definitions = {
             range = {
               start = {
                 line = cursorline,
-                character = #cmdline - #arglead - 1
+                character = #cmdline - #arglead
               },
               ['end'] = {
                 line = cursorline,
-                character = #cmdline - 1
+                character = #cmdline
               }
             },
             newText = item.label
